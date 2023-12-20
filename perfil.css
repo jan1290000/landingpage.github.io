@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFCF7;
+}
+
+header {
+    background-color: #6b6a65;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header_conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+section {
+    padding: 20px;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+.quadro_carrossel {
+    display: flex;
+    transition: tramsform 0.5s ease-in-out;
+}
+
+/*------------------------------------------------------------------------------------------*/
+.intro_conteudo {
+    width: 150px;
+    border-radius: 5%;
+    margin-bottom: 20px;
+}
+
+.conteudo {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #F0F8FF;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+
+}
+
+.calculo {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #FFFCF7;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+button {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #F9D483;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #F3A957;
+}
+
+/*---------------------------------------------------------------------------------------------*/
+.calculo button {
+    background-color: #768a88;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.calculo button:hover {
+    background-color: #395c78;
+    transition: 0.3s;
+}
+/*----------------------------------------------------------------------------------------*/
+header img {
+    padding: 5px;
+    border-radius: 4px;
+    border: 2px solid seashell;
+    width: 350px;
+    display: block;
+    margin-left: 200px;
+}
